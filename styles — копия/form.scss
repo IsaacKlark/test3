@@ -1,0 +1,47 @@
+.form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 21px;
+
+    &__input {
+        width: 162px;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        border-radius: 5px;
+        padding-left: 17px;
+        font-size: 14px;
+        border: 1px solid #adadad;
+        color: #34495D;
+        outline: 0;
+    }
+
+    &__input:focus {
+        border: 1px solid #0288D1;
+    }
+
+    &__date {
+        border: 0;
+        outline: 0;
+    }
+
+    &__date-div {
+        background-color: white;
+        padding-left: 18px;
+    }
+
+    &__date-div input {
+        margin-left: 8px;
+        color: #34495D;
+    }
+
+    &__urlOrPart {
+        height: 26px;
+        position: relative;
+    }
+
+
+}
+
+

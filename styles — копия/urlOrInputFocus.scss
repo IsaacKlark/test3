@@ -1,0 +1,59 @@
+.urlOrInputFocus {
+    content: "";
+    position: absolute;
+    width: 275px;
+    top: 30px;
+    border: 1px solid #34495D;
+    border-radius: 5px;
+    background-color: white;
+    display: flex;
+    flex-direction: column; 
+    color: #37474F;
+    font-size: 14px;
+    overflow: hidden;
+    display: none;
+
+    &__radio {
+        margin: 12px 24px;
+        width: 18px;
+        height: 18px;
+    }
+
+    &__label {
+        display: flex;
+        align-items: center;
+    }
+
+    &__hr {
+        width: 90%;
+        margin-top: 12px;
+        margin-bottom: 12px;
+
+    }
+
+    &__buttons-wrapper {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 0 12px 0;
+        width: 100%; 
+    }
+
+    &__button {
+        border: 0;
+        outline: 0;
+        background-color: rgba(0,0,0,0);
+        margin: 0 24px;
+    }
+
+    &__button:hover {
+        cursor: pointer;
+    }
+
+    &__reset {
+        color: #FB6868;
+    }
+
+    &__apply {
+        color:  #0288D1;
+    }
+}

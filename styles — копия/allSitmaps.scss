@@ -1,0 +1,30 @@
+.allSitmaps {
+    position: absolute;
+    top: 34px;
+    width: 183px;
+    border: 1px solid #34495D;
+    border-radius: 5px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    display: none;
+
+    &__button {
+        width: 100%;
+        padding: 11px 0;
+        background-color: white;
+        font-size: 14px;
+        color: #34495D;
+        border: 0;
+        outline: 0;
+        display: flex;
+        justify-content: flex-start;
+        padding-left: 12px; 
+    }
+
+    &__button:hover {
+        cursor: pointer;
+        background-color: #F5F8FD;
+    }
+}

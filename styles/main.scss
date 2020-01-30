@@ -1,0 +1,36 @@
+@import 'svg';
+@import 'table';
+@import 'form';
+@import 'urlOrInputFocus';
+@import 'allSitmaps';
+
+body {
+    background-color: #E5E5E5;
+}
+
+.sucsess {
+    color: #2AC9A1;
+    font-size: 14px;
+}
+
+.errors {
+    color: #FB6868;
+    font-size: 14px;
+}
+
+.urlOrPart-wrapper {
+    position: relative;
+}
+
+.allSitmaps-wrapper {
+    position: relative;
+}
+
+.inputWrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
